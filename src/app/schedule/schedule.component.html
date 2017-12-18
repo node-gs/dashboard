@@ -8,8 +8,10 @@
     <section class='fw6 f5'>
         <!-- <h3 class='ma1 pb3 fw6'>Links</h3> -->
         <ul class='_first-highlight fa-ul ma0'>
-            <li class='pl5 pv3 _stripes'>Subject</li>
-            <li *ngFor='let subjectLink of subjectLinks' class='pl5 pv3'>{{subjectLink}}</li>
+            <li class='pl4 pv3 ml2 _stripes'>
+                <i class='fa fa-home mr2'></i> Subject</li>
+            <li *ngFor='let subjectLink of subjectLinks' class='pl4 ml2 pv3'>
+                <i class='fa secondary fa-file-text-o mr3'></i> {{subjectLink}}</li>
         </ul>
     </section>
 </div>
