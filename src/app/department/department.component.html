@@ -1,0 +1,150 @@
+<div class='fl w-20 br b--light-gray pt4'>
+    <!-- <section class='pa4 ph4 flex justify-center bb b--light-gray'> -->
+    <!-- <div class='w-100 ph4 pv2 br-pill _primary-outline-bg'>
+        <i class='fa fa-search'></i>
+        Search
+      </div> -->
+    <!-- </section> -->
+    <section class='fw6 f5'>
+        <!-- <h3 class='ma1 pb3 fw6'>Links</h3> -->
+        <ul class='_first-highlight fa-ul ma0'>
+            <li class='pl5 pv3 _stripes'>Subject</li>
+            <li *ngFor='let subjectLink of subjectLinks' class='pl5 pv3'>{{subjectLink}}</li>
+        </ul>
+    </section>
+</div>
+
+<div class='fl w-70 br b--light-gray pt4'>
+    <!-- <header class='ph5 pv4'>
+        <h2 class='ma0 fw6 '>
+            Welcome to myFy
+        </h2>
+        <small class='f6 fw6 secondary'></small>
+    </header>
+    <hr class='mh5 ba ma0 _stripes _spacer'> -->
+    <header class='ph5 pt4 pb3'>
+        <h2 class='ma0 fw6 '>
+             My Individual Study Plans
+        </h2>
+        <small class='f6 fw6 secondary'></small>
+    </header>
+    <hr class='mh5 ba ma0 _stripes _spacer'>
+    
+    <section class='ph5 pv3'>
+        <!-- Timetables -->
+        <p class='ma0 pb1 fw6'>
+            The following study plans have been noted by me in the last 28 days.
+        </p>
+    </section>
+    
+    <!-- NEW SECTION -->
+    <header class='ph5 pt4 pb3'>
+        <h2 class='ma0 fw6 '>
+            Individual Study Plans
+        </h2>
+        <small class='f6 fw6 secondary'></small>
+    </header>
+    <hr class='mh5 ba ma0 _stripes _spacer'>
+
+    <section class='ph5 pv3'>
+        <!-- Timetables -->
+        <p class='ma0 pv2 fw6'>
+             The following study plans have been noted by staff in the last 7 days.
+        </p>
+        <p class='ma0 pt3 pb1 f4 fw6'>
+            2017 August Standard 
+        </p>
+        <p class='ma0 pv2'>
+            Mr SHEN, Zhengming (Allan)
+            Ms TAN, Xin (Gaki) Mr WU,
+            Dong-Jhang (Andy) Ms ZHOU,
+            Mengting (Ivy) Mr ZHU, Zewei (Eric)
+        </p>
+        <p class='ma0 pt3 pb1 f4 fw6'>
+            2017 October Express
+        </p>
+        <p class='ma0 pv2'>
+            Mr BATSAIKHAN, Tuguldur (Bondy)
+        </p>
+    </section>
+
+        <!-- latest news section -->
+        <header class='ph5 pt4 pb3'>
+            <h2 class='ma0 fw6 '>
+                Undergraduate Aim Changes
+            </h2>
+            <small class='f6 fw6 secondary'></small>
+        </header>
+        <hr class='mh5 ba ma0 _stripes _spacer'>
+        <!-- Timetables -->
+        <section class='ph5 pv3'>
+            <p class='ma0 pb1'>
+                 The following students have requested a change to their undergraduate aims.
+            </p>
+        </section>
+        <!-- Calendars -->
+        <section class='ph5 pv3'>
+            <table class='collapse pv2 ph3 w-100 f5 tl'>
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Group</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Requested</th>
+                        <th>Approved</th>
+                    </tr>
+                </thead>   
+                <tbody>
+                <tr class='pv2' *ngFor='let data of [1,2,3,4,5,6,7,8,9]'>
+                    <td>
+                        <a target="blank" href="#" title="Click here to go to this student's profile">Mr CUI, Zhihan (Nick)</a>
+                    </td>
+                    <td>2018 January Extended</td>
+                    <td>Engineering (Honours)</td>
+                    <td>Engineering (Honours) (1),(2)
+                    </td>
+                    <td>25 Aug 2017</td>
+                    <td colspan="3">
+                        <span>
+                            Pending
+                        </span>
+                    </td>
+                </tr>
+                </tbody> 
+            </table>
+        </section>
+
+</div>
+
+<div class='fl w-10 pt4 pr3'>
+    <div class='flex fw6 flex-column items-start f5 b--light-gray'>
+        <p class='tc pa3 fw6 w-100 ma0'>Subjects</p>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-table pr2'></i>AE</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-dollar pr2'></i>AC</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-home pr2'></i>AR</span>
+        <span class='pv3 tc _success w-100 _primary _stripes'>
+            <i class='_primary fa fa-users pr2'></i>BS</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-leaf pr2'></i>BL</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-suitcase pr2'></i>BM</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-flask pr2'></i>CH</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-line-chart pr2'></i>EC</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-quote-right pr2'></i>EL</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-desktop pr2'></i>IT</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-plus-square pr2'></i>MA</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-rocket pr2'></i>PH</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-book pr2'></i>RE</span>
+    </div>
+</div>

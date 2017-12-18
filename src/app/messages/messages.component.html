@@ -1,0 +1,111 @@
+<div class='fl w-20 br b--light-gray pt4'>
+    <!-- <section class='pa4 ph4 flex justify-center bb b--light-gray'> -->
+    <!-- <div class='w-100 ph4 pv2 br-pill _primary-outline-bg'>
+        <i class='fa fa-search'></i>
+        Search
+      </div> -->
+    <!-- </section> -->
+    <section class='fw6 f5'>
+        <!-- <h3 class='ma1 pb3 fw6'>Links</h3> -->
+        <ul class='_first-highlight fa-ul ma0'>
+            <li class='pl5 pv3 _stripes'>Subject</li>
+            <li *ngFor='let subjectLink of subjectLinks' class='pl5 pv3'>{{subjectLink}}</li>
+        </ul>
+    </section>
+</div>
+<div class='fl w-30 br b--light-gray pt4'>
+    <!-- <section class='pa3 ph4 flex justify-center bb b--light-gray'>
+      <div class='w-100 ph4 pv2 br-pill _primary-outline-bg'>
+        <i class='fa fa-search'></i>
+        Search
+      </div>
+    </section> -->
+    <section class='pv3 bb b--light-gray ph4' *ngFor='let data of [1]'>
+        <div class='flex items-center justify-between'>
+            <span class='flex justify-between items-center '>
+                <i class='_tl pl1 pr2 secondary  fl fa _circle-size fa-circle _primary'></i>
+                <h3 class='ma0 fw6'>Title</h3>
+            </span>
+            <span class='fr f6 fw4 pr3 secondary'>30/11</span>
+        </div>
+        <h4 class='ma0 ml1 pl3 pb1 normal'>Subtitle</h4>
+        <p class='ma0 ml1 pl3 secondary'>Paragraph text for the message lorem ipsum dolem est....</p>
+    </section>
+    <section class='pv3 bb b--light-gray ph4 _primary-bg' *ngFor='let data of [1]'>
+        <div class='flex items-center justify-between'>
+            <span class='flex justify-between items-center '>
+                <i class='_tl pl1 pr2 secondary  fl fa _circle-size fa-check _primary'></i>
+                <h3 class='ma0 fw6'>Here is a test title</h3>
+            </span>
+            <span class='fr f6 fw4 pr3 secondary'>30/11</span>
+        </div>
+        <h4 class='ma0 ml1 pl3 pb1 normal '>Para header</h4>
+        <p class='ma0 ml1 pl3 secondary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor....</p>
+    </section>
+    <section class='pv3 bb b--light-gray ph4' *ngFor='let data of [1, 2, 3]'>
+        <div class='flex items-center justify-between'>
+            <span class='flex justify-between items-center '>
+                <i class='_tl pl1 pr2 secondary  fl fa _circle-size fa-circle _primary'></i>
+                <h3 class='ma0 fw6'>Title</h3>
+            </span>
+            <span class='fr f6 fw4 pr3 secondary'>30/11</span>
+        </div>
+        <h4 class='ma0 ml1 pl3 pb1 normal '>Subtitle</h4>
+        <p class='ma0 ml1 pl3 secondary'>Paragraph text for the message lorem ipsum dolem est....</p>
+    </section>
+</div>
+<div class='fl w-40 br b--light-gray pt4'>
+    <header class='pv4 ph5'>
+        <h2 class='ma0 fw6 '>
+            Here is a test title
+        </h2>
+        <small class='f6 fw6 secondary'>Supporting text</small>
+    </header>
+    <hr class='mh5 ba ma0 _stripes _spacer'>
+    <section class='ph5 pv4'>
+        <h3 class=' ma0 pb2 fw6'>Para header</h3>
+        <p class='ma0 pb1'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </section>
+    <hr class='mh5 ba ma0 _stripes _spacer'>
+    <div class='flex button-container justify-end ph5 pv4'>
+
+        <a class='pv2 mh2 ph4 f5 fw3 br-pill _primary-outline-bg no-underline' href="javascript:void(0)">Reply </a>
+        <a class='pv2 mh2 ph4 f5 fw3 br-pill _primary-bg no-underline' href="javascript:void(0)">Delete </a>
+    </div>
+</div>
+<div class='fl w-10 pt4 pr3'>
+    <div class='flex fw6 flex-column items-start f6 b--light-gray'>
+        <p class='tc pa3 fw6 w-100 ma0'>Subjects</p>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-table pr2'></i>AE</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-dollar pr2'></i>AC</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-home pr2'></i>AR</span>
+        <span class='pv3 tc _success w-100 _primary _stripes'>
+            <i class='_primary fa fa-users pr2'></i>BS</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-leaf pr2'></i>BL</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-suitcase pr2'></i>BM</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-flask pr2'></i>CH</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-line-chart pr2'></i>EC</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-quote-right pr2'></i>EL</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-desktop pr2'></i>IT</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-plus-square pr2'></i>MA</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-rocket pr2'></i>PH</span>
+        <span class='pv3 tc _success w-100'>
+            <i class='secondary fa fa-book pr2'></i>RE</span>
+    </div>
+</div>
